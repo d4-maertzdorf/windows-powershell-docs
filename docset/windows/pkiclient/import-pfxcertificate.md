@@ -40,7 +40,7 @@ Delegation may be required when using this cmdlet with Windows PowerShell® remo
 
 ### EXAMPLE 1
 ```
-PS C:\>$mypwd = Get-Credential -UserName 'Enter password below' -Message 'Enter password below'
+PS C:\>$mypwd = Get-Credential -UserName 'DOMAIN\username' -Message 'Enter password below'
 
 
 
